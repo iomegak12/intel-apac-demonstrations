@@ -1,0 +1,8 @@
+langchain
+langchain-community
+langchain-openai
+langchain-pinecone
+pypdf
+pinecone
+python-dotenv
+streamlit
