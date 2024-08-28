@@ -1,0 +1,6 @@
+statsforecast
+pandas
+matplotlib
+ipywidgets
+widgetsnbextension
+matplotlib

@@ -1,0 +1,3 @@
+REFER THIS URL:
+
+https://nixtlaverse.nixtla.io/statsforecast/docs/tutorials/anomalydetection.html
