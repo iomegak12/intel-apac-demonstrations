@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "end-to-end-lc-ls-ls"
+version = "0.1.0"
+description = "This project is to demonstrate how End-to-End LLM Applications are built using LangChain, LangSmith and LangServe."
+authors = ["Ramkumar JD <jd.ramkumar@gmail.com>"]
+readme = "README.md"
+packages = [
+    { include = "app" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+uvicorn = "^0.23.2"
+langserve = {extras = ["all"], version = "^0.2.2"}
+pydantic = "*"
+langchain = "*"
+langchain-openai = "*"
+langchain-community = "*"
+python-decouple = "*"
+
+
+[tool.poetry.group.dev.dependencies]
+langchain-cli = ">=0.0.15"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
